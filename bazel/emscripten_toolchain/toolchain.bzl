@@ -430,7 +430,7 @@ def _impl(ctx):
         ),
         feature(
             name = "wasm_warnings_as_errors",
-            enabled = True,
+            enabled = False,
         ),
 
         # ASan and UBSan. See also:
